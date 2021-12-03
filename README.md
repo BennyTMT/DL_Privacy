@@ -8,12 +8,12 @@ This document supports the work ***The Many-faced God: Attacking Face Verificati
 ```
 pyhton3 main.py -b 32 -l 0.0015
 ```
-This file will conduct the whole Attack directly. "-b" means batch size and "-l" means learning rate. There are several variables setting you should pay attention, such as "datset path" or "model save path", which are related to your own **project file structure**. Also, you can change the Hyper Parameters in the file independently or adjust the architecture of the model, which may result in better performance in face recovery task. 
+This file will conduct the whole Attack directly. "-b" means batch size and "-l" means learning rate. There are several variable settings you should pay attention, such as "datset path" or "model save path", which are related to your own **project file structure**. Also, you can change the Hyper Parameters in the file independently or adjust the architecture of the model, which may result in better performance in face recovery task. 
 
 ```
 erGan.py
 ```
-This file is about the whole architecture of our erGAN model. Specifically, this file is about recover [Embedding-1024 Face Model](https://www.clarifai.com/developers/pre-trained-models) in real world, also you can change the model interface to fit your own recover task. ***"_generator()"*** is about how we extract information from embedding and recover face from it, pipline showing below:
+This file is about the whole architecture of our erGAN model. Specifically, this file is about [Embedding-1024 Face Model](https://www.clarifai.com/developers/pre-trained-models)recovery in real world, also you can change the model interface to fit your own recover task. ***"_generator()"*** is about how we extract information from embedding and recover face from it, pipline showing below:
 
 ![](/src/designPipline.png  "pipline")	
 
