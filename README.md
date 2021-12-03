@@ -8,7 +8,8 @@ This document supports the work ***The Many-faced God: Attacking Face Verificati
 ```
 pyhton3 main.py -b 32 -l 0.0015
 ```
-This file will conduct the whole Attack directly. "-b" means batch size and "-l" means learning rate. There are several variable settings you should pay attention, such as "datset path" or "model save path", which are related to your own **project file structure**. Also, you can change the Hyper Parameters in the file independently or adjust the architecture of the model, which may result in better performance in face recovery task. 
+This file will conduct the whole Attack directly. "-b" means batch size and "-l" means learning rate. There are several variable settings you should pay attention, such as "datset path" or "model save path", which are related to your own **project file structure**.  
+Also, you can change the Hyper Parameters in the file independently or adjust the architecture of the model, which may result in better performance in face recovery task. 
 
 ```
 erGAN.py
