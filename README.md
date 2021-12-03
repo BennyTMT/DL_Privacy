@@ -13,8 +13,13 @@ This file will conduct the whole Attack directly. "-b" means batch size and "-l"
 ```
 erGan.py
 ```
-This file is about the whole architecture of our model. "_generator()" is about how we extract information from the embedding and recover the face from it. 
+This file is about the whole architecture of our erGAN model. Specifically, this file is about recover [Embedding-1024 Face Model](https://www.clarifai.com/developers/pre-trained-models) in real world, also you can change the model interface to fit your own recover task. ***"_generator()"*** is about how we extract information from embedding and recover face from it, pipline showing below:
+
+![](/src/designPipline.png  "pipline")	
+
+This is the performance ranmdomly choosed from **Testing Data**. The first line is the oringial face images from public dataset "LFW". Second line is the face images recovered from embedding 1024 from an online face classification application **Clarifai-1024**. 
 ![](/src/faceRecovery.png  "face")	
+
 
 
 One can conduct the whole project by 
