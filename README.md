@@ -17,9 +17,9 @@ This file is about the whole architecture of our erGAN model. Specifically, this
 
 ![](/src/designPipline.png  "pipline")	
 
+## Performance
 This is the performance ranmdomly choosed from **Testing Data**. The first line is the oringial face images from public dataset "LFW". Second line is the face images recovered from embedding 1024 from an online face classification application **Clarifai-1024**. 
 ![](/src/faceRecovery.png  "face")	
-
 
 ## Disclaimer
 
@@ -28,5 +28,4 @@ Do NOT use the contents of this repository in applications which handle sensitiv
 ## Contact
 
 We will continue to update this project later. If you are intesested in our project please contact us here or send email to me (***mttan@smu.edu.sg***). We welcome your communication very much.
-
 
