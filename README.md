@@ -14,6 +14,7 @@ This file will conduct the whole Attack directly. "-b" means batch size and "-l"
 erGan.py
 ```
 This file is about the whole architecture of our model. "_generator()" is about how we extract information from the embedding and recover the face from it. 
+![](/src/faceRecovery.png  "face")	
 
 
 One can conduct the whole project by 
