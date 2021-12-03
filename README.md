@@ -8,7 +8,13 @@ This document supports the work ***The Many-faced God: Attacking Face Verificati
 ```
 pyhton3 main.py -b 32 -l 0.0015
 ```
-This file will conduct the whole Attack directly. "-b" means batch size and "-l" means learning rate. Also, there are several variables setting you should pay attention, such as dataSet path or model save path, which are related to your own project file structure.
+This file will conduct the whole Attack directly. "-b" means batch size and "-l" means learning rate. There are several variables setting you should pay attention, such as "datset path" or "model save path", which are related to your own project file structure. Also, you can change the Hyper Parameters in the file independently or adjust the architecture of the model, which may result in better performance in face recovery task. 
+
+```
+erGan.py
+```
+This file is about the whole architecture of our model. "_generator()" is about how we extract information from the embedding and recover the face from it. 
+
 
 One can conduct the whole project by 
 
