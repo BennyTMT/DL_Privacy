@@ -25,10 +25,8 @@ This is the performance ranmdomly choosed from **Testing Data**. The first line 
 
 Do NOT use the contents of this repository in applications which handle sensitive data. The author accepts no liability for privacy infringements - use the contents of this repository solely at your own discretion. We conduct all the experiments in **public data set**, such as LFW or CASIA.
 
+## Contact
 
-One can conduct the whole project by 
+We will continue to update this project later. If you are intesested in our project please contact us here or send email to me (***mttan@smu.edu.sg***). We welcome your communication very much.
 
 
-We will put our experiment files in this documents gradually. 
-
-If there are something you are interested in, **Plz Contact Us**
