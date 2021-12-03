@@ -3,9 +3,8 @@ This document supports the work ***The Many-faced God: Attacking Face Verificati
 **Author Invloved: Mingtian Tan,Zhe Zhou,Zhou Li**   
 [PAPER LINK](https://cpb-us-e2.wpmucdn.com/faculty.sites.uci.edu/dist/5/764/files/2021/10/acsac21a.pdf)
 
-# Tutorials
-___
-
+## Tutorials
+  main.py
 One can conduct the whole project by 
 pyhton3 main.py -b 32 -l 0.0015
 
